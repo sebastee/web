@@ -6,6 +6,12 @@ fields:
   name: title
   label: Title
   default: default
+- name: teaser_text
+  type: text
+  config:
+    required: true
+  label: Teaser Text
+  description: The teaser text
 - name: author
   type: select
   default: []
